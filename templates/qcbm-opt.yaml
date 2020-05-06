@@ -26,7 +26,7 @@ spec:
           data: |
             from qcbm.ansatz import generate_random_initial_params
             from zquantum.core.circuit import save_circuit_template_params
-            n_qubits = {{input.parameters.n-qubits}}
+            n_qubits = {{inputs.parameters.n-qubits}}
             n_layers = {{inputs.parameters.n-layers}}
             topology = "{{inputs.parameters.topology}}"
             min_val = {{inputs.parameters.min-val}}

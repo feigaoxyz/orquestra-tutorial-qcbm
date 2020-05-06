@@ -11,7 +11,7 @@ spec:
         default: "all"
       - name: min-val
         default: "0."
-      - name: max_val
+      - name: max-val
         default: "1."
       - name: n-par
         default: "0"

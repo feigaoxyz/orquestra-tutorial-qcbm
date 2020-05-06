@@ -24,7 +24,7 @@ spec:
         path: /app/main_script.py
         raw:
           data: |
-            from qcbm.ansatz import generate_random_inital_params
+            from qcbm.ansatz import generate_random_initial_params
             from qcbm.core.circuit import save_circuit_template_templates
             n_qubits = {{input.parameters.n-qubits}}
             n_layers = {{inputs.parameters.n-layers}}

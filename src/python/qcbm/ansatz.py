@@ -142,7 +142,7 @@ def generate_random_initial_params(
     Returns:
         numpy.array: the generated parameters, stored in a 1D array.
     """
-    gen = np.randon.RandomState(seed)
+    gen = np.random.RandomState(seed)
     assert topology == "all"
     n_params_layer_zero = 2 * n_qubits
     n_params_per_layer = int((n_qubits * (n_qubits - 1) / 2))
